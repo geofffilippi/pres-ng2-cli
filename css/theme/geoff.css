@@ -295,10 +295,10 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   position: absolute;
-  bottom: 6%;
+  bottom: 10%;
   right: 6%;
-  width: 20%;
-  height: 10%;
+  width: 10%;
+  height: 20%
 }
 /*********************************************
  * Boxes for simple diagrams

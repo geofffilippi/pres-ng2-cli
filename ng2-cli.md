@@ -127,6 +127,16 @@ ng --help
 
 ---
 
+## Upgrading Angular CLI
+
+<pre><code data-trim contenteditable class=bash>
+npm uninstall -g angular-cli
+npm cache clean
+npm install -g angular-cli@latest
+</pre></code>
+
+---
+
 ## Generate New App
 
 <pre><code data-trim contenteditable class=bash>
@@ -332,6 +342,16 @@ ng generate service my-new-service
 ```
 ng generate route first-route
 ```
+---
+
+## Upgrading Angular Apps
+
+```
+rm -rf node_modules dist tmp
+npm install --save-dev angular-cli@latest
+ng init
+```
+
 ---
 ---
 
