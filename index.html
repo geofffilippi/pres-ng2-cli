@@ -65,6 +65,11 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+                // hack, reveal/head async depencency loader not working on github pages
+		setTimeout(function init() { hljs.initHighlighting();},500);
+		</script>
 
 		<script>
 
@@ -81,8 +86,7 @@
 				// Optional reveal.js plugins
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/markdown/markdown.js' }
 				]
 			});
 		</script>

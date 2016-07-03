@@ -202,7 +202,7 @@ ng serve
 ### Base
 
 <pre><code data-trim contenteditable class=html>
-<base href="/">
+&lt;base href="/"&gt;
 </code></pre>
 
 ---
@@ -212,7 +212,7 @@ ng serve
 ### Root Component
 
 <pre><code data-trim contenteditable class=html>
-<angular2-kickstart-app>Loading...</angular2-kickstart-app>
+&lt;angular2-kickstart-app&gt;Loading...&lt;/angular2-kickstart-app&gt;
 </code></pre>
 
 ---
